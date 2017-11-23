@@ -10,6 +10,7 @@ if (!isset($_SESSION["uid"])){
 //    header('Location: ./login.php');
 //    exit;
 }
+//some change comment
 $ogdesc='<meta property="og:description" content="چوبشور، سرزمین هیجان‌انگیز یادگیری همراه با سرگرمی‌های امن و جذاب - اخبار چوبشور را در این صفحه دنبال کنید." />';
 $navbarcode = isset($_SESSION['uid'])?2:1;
 $type='news';
